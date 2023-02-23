@@ -1,0 +1,268 @@
+
+	/* CSS Document */
+*{
+	margin:0 auto;
+	padding:0px;
+}
+ 
+body{
+	height:100%;
+	width:100%;
+	font-size:14px;
+	font-family:"微软雅黑";	/*定义文字大小及字号*/
+	background-image: url("../images/background.jpg")
+	}
+header{
+	background:#F6F6F6;
+	width:1200px;
+	height:80px;
+	margin:0 auto;
+	position:relative;
+	opacity: 0.9;
+}
+
+
+header div{
+	float:left;}
+	
+.title1{
+	font-family:"华文行楷";
+	font-weight:bold;
+	font-size:68px;
+	text-align:center;
+	letter-spacing:10px;
+	line-height:80px;
+	margin-top:5px;
+	margin-left:20%; 
+	color:#333;
+	}
+
+.language_change select{
+	margin-left:10px;
+	height:24px;
+	}
+	
+.logo{
+	height:60px;
+	width:60px;
+	margin-top:10px;
+	background-size:100% 100%;
+	position:absolute;
+	margin-left:36%;}
+	
+a{
+	text-decoration:none;/*无文本装饰效果*/
+	color:#06F;}/*可用取色工具取色*/
+	
+a:hover{
+	color:#F00;}
+	
+ 
+.shop_cart{
+	float:right;/*浮动在右边*/
+	margin-right:40px;;/*购物车框架位置*/}
+	
+.shop_cart a{
+	padding-left:22px;
+	background:url(../images/cart.PNG) no-repeat left center;
+	}
+ 
+/*列表样式*/
+li{
+	list-style:none;
+	}
+	
+menu{
+	background:#F6F6F6;
+	height:70px;
+	width:1200px;
+	
+	}
+	
+menu>ul{
+	/*height:70px;*/
+	float:left;
+	margin-left:12%;
+	}
+	
+menu>ul>li{
+	height:35px;
+	width:150px;
+	margin-top:30px;
+	background:#FDEA66;
+	float:left;
+	margin-left:2px;
+	text-align:center;/*文本居中*/
+	line-height:34px;
+	
+	}
+ 
+menu>ul>li>a{
+	display:inline-blockl;/*设置或检索对象是否及如何显示，内联块元素*/
+	height:40px;
+	width:90px;
+	font-weight:bold;
+	font-size:20px;
+	letter-spacing:1em;/*字间距*/
+	color:#333;
+	}
+	
+menu>ul>li>a:hover{
+	color:#F0C;}
+#main{
+	background:#F6F6F6;
+	width:1200px;
+	height:4500px;
+	margin:0 auto;
+	position:relative;
+}
+#content{
+	border-radius: 20px 10px;
+	width:1000px;
+	height: 230px;
+	margin:10px;
+	border-color: greenyellow;
+	border: 1px solid;
+	padding: 10px;
+	background: black;
+}
+#content p{
+	font-size: 20px;
+	color: white;
+}
+#left{
+	border: 1px solid black;
+	width: 100px;
+	height: 230px;
+	border-radius: 20px;
+	margin-top: 20px;
+	background:black;
+	animation: animate 10s linear infinite;
+}
+@keyframes animate{
+
+	20%{background: yellow}
+	40%{background:skyblue }
+	60%{background: pink}
+	80%{background:red }
+}
+#left p{
+	font-size:40px;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	
+}
+#jump{
+	display: flex;
+	flex-direction: row;
+}
+.img{
+	width: 450px;
+	height: 300px;
+	border-radius: 30px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.title2{
+text-align:center;
+	
+}
+.title2 p{
+	font-family:"华文行楷";
+	font-weight:bold;
+	font-size:68px;
+	
+	line-height:80px;
+	margin-top:5px;
+	 
+	color:#333;
+}
+.title p a{
+	text-decoration: none;
+}
+#xf{
+	width:auto;
+	height: 320px;
+	padding: 0px;
+	margin: 0px;
+	line-height: 49px;
+	background-image:url("../images/xf.jpg");
+
+   
+}.xf1{
+	font-size:25px;
+	color:white;
+	font-family:"宋体";
+	background:linear-gradient(black,white);
+	border-radius: 100px;
+	margin:0 auto;
+	width:700px;
+	font-weight:bold;
+	text-shadow: 0 0 10px skyblue,0 0 20px skyblue,0 0 30px skyblue,0 0 40px skyblue;
+}
+.text1{
+	font-size: 18px;
+	line-height: 30px;
+	text-indent:1cm;
+	padding-right: 30px;
+}
+.text2{
+	font-size: 18px;
+	line-height: 30px;
+	text-indent:1cm;
+	padding-left: 30px;
+}
+.forml1{
+	height: 700px;
+	width: 1200px;
+	border: 0px;
+}
+#footer{
+	position: fixed;
+	top:93.5%;
+	left:1360px;
+	
+}
+#footer button{
+	width:100px;
+	height:50px;
+	border-radius: 20px;
+	background:black; 
+}
+#footer button a{
+	text-decoration: none;
+	color:pink ;
+	font-size: 20px;
+}
+#bottom{
+	width:1200px;
+	height:200px;
+	background: black;
+	opacity: 0.8;
+}
+#bottom div{
+	position: relative;
+	top: 20px;
+}
+#bottom div p{
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-family: "宋体";
+}
+#bottom1{
+	width:700px;
+	height: 110px;
+	margin: 0px auto;
+	background: blanchedalmond;
+	border-radius: 25px;
+}
+#bottom1 marquee p{
+	font-size:25px;
+	font-family: 宋体;
+	color: black;
+	text-align: center;
+	text-shadow: 0 0 10px pink,0 0 20px pink,0 0 30px pink,0 0 40px pink;
+}
